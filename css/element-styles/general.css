@@ -1,9 +1,13 @@
 [class*="__container"] {
 	font-family: 'Old Standart TT';
-	max-width: 1920px;
+	max-width: 1440px;
 	margin: 0 auto;
 }
 
 .navbar a {
 	color: var(--grey);
+}
+
+body {
+	background-color: var(--black);
 }
