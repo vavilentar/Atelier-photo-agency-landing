@@ -1,9 +1,3 @@
-.services-section {
-}
-.services {
-}
-.services__container {
-}
 .services-img-bg {
 	display: block;
 	height: 462px;
@@ -35,4 +29,9 @@
 	line-height: 26px;
 	color: #ACA592;
 	text-align: left;
+}
+
+.col-services {
+	display: flex;
+    justify-content: center;
 }

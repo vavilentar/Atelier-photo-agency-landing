@@ -41,7 +41,8 @@
 }
 
 .button-view:hover{
-	background-color: transparent;
+	background-color: var(--black);
+	color: var(--main-color);
 }
 
 .wrapper {
