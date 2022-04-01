@@ -41,11 +41,9 @@
 	display: flex;
 	align-items: center;
 }
-.button_buy {
+.button {
 	height: 52px;
 	width: 147px;
-	left: 955px;
-	top: 14px;
 	background-color: transparent;
 	border: 1px solid var(--main-color);
 	font-size: 11px;
@@ -57,7 +55,7 @@
 	transition: all .3s ease-in-out;
 }
 
-.button_buy:hover {
+.button:hover {
 	color: var(--black);
 	background-color: var(--main-color);
 }
