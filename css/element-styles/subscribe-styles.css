@@ -18,5 +18,10 @@
 	flex-direction: column;
 	align-items: center;
 	text-align: center;
-	width: 600px;
+}
+@media(max-width: 426px) {
+	.subscribe-title{
+		font-size: 35px;
+		line-height: 40px;
+	}
 }

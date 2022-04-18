@@ -47,4 +47,45 @@
 
 .templates-items-row {
 	padding: 80px 0 120px 0;
+	justify-content: center;
+}
+
+@media(max-width: 769px) {
+	.templates-start{
+		padding: 50px 0;
+	}
+	.template-item{
+		height: 280px;
+		width: 330px;
+		margin: 0;
+		border: none;
+	}
+	.templates-items-row {
+		width: 100%;
+		margin: 0;
+	}
+}
+
+@media(max-width: 426px) {
+	.templates-title{
+		font-size: 40px;
+		line-height: 30px;
+	}
+	.template-item{
+		width: 200px;
+		height: 200px;
+	}
+	.template-item-img{
+		width: 100%
+	}
+	.template-item-name{
+		padding: 15px 0;
+		font-size: 12px;
+		font-weight: 300;
+		line-height: 14px;
+		letter-spacing: 1px;
+	}
+	.templates-items-row {
+		padding: 50px 0;
+	}
 }

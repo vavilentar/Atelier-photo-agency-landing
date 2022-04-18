@@ -1,7 +1,7 @@
 .services-img-bg {
 	display: block;
 	height: 462px;
-	background: url(../../img/services-bg.png) center center/cover no-repeat;
+	background: url(../../img/services-bg.jpg) center center/cover no-repeat;
 }
 .services-start {
 	padding: 100px 0 63px 0;
@@ -34,4 +34,37 @@
 .col-services {
 	display: flex;
     justify-content: center;
+}
+
+@media(max-width: 769px) {
+	.service-tab{
+		padding: 10px 0 0 10px;
+		height: auto;
+	}
+	.services-start{
+		padding: 50px 0;
+	}
+	.services-row{
+		width: 100%;
+		margin: 0;
+	}
+}
+
+@media(max-width: 426px) {
+	.service-title{
+		font-size: 12px;
+		margin: 0;
+		padding: 10px 0;
+	}
+	.service-sutitle{
+		font-size: 12px;
+		line-height: 16px;
+		font-weight: 200;
+	}
+	.service-tab{
+		padding: 5px 0 0 5px;
+	}
+	.services-img-bg{
+		height: 300px;
+	}
 }
