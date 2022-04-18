@@ -8,11 +8,11 @@
 }
 
 .service-tab {
-	height: 350px;
+	height: 280px;
 	width: 400px;
 	border: 1px #4B4136 solid;
 	text-align-last: left;
-	padding: 61px 0 0 61px;
+	padding: 15px 0 0 15px;
 }
 
 .service-title {
